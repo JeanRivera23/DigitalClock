@@ -1,22 +1,29 @@
 body {
-  background-color:
-
+  background-color: ;
+  color: white;
+  font-family: 'Helvetica', sans-serif;
+  font-weight: bold;
 }
 
-#time {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  font-family: 'Luckiest Guy', cursive;
-  font-size: 60px;
-  text-align: center;
+.main {
+  background-color: #404040;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 280px;
+  height: 125px;
+  padding: 45px 50px 40px 50px;
+  border-top: 30px solid #ddda0f;
 }
 
 #greeting {
-  position: fixed;
-  top: 42%;
-  left: 50%;
-  font-family: 'Bangers', cursive;
-  font-size: 24px;
-  text-align: center;
+  font-size: 36px;
+  padding-bottom: 20px;
+}
+
+#time {
+  font-size: 60px;
 }
