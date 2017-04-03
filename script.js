@@ -14,7 +14,7 @@ setInterval(function() {
 	  greeting.textContent = "Good Morning";
 		changeMe.style.backgroundImage = "url('http://www.publicdomainpictures.net/pictures/180000/velka/moss-1465835643LFs.jpg')";
 	}
-	else if (hourPrint >= 13 && hourPrint <= 16) {
+	else if (hourPrint >= 12 && hourPrint <= 16) {
 	greeting.textContent = "Good Afternoon";
 	changeMe.style.backgroundImage = "url('http://www.publicdomainpictures.net/pictures/160000/velka/texture-eau-bleue-et-ondulations.jpg')";
 	}
