@@ -14,11 +14,11 @@ setInterval(function() {
 	  greeting.textContent = "Good Morning";
 		changeMe.style.backgroundImage = "url('http://www.publicdomainpictures.net/pictures/180000/velka/moss-1465835643LFs.jpg')";
 	}
-	else if (hourPrint >= 12 && hourPrint <= 04) {
+	else if (hourPrint >= 13 && hourPrint <= 16) {
 	greeting.textContent = "Good Afternoon";
 	changeMe.style.backgroundImage = "url('http://www.publicdomainpictures.net/pictures/160000/velka/texture-eau-bleue-et-ondulations.jpg')";
 	}
-	else if (hourPrint > 04 && hourPrint <= 07) {
+	else if (hourPrint > 16 && hourPrint <= 19) {
 	  greeting.textContent = "Good Evening";
 		changeMe.style.backgroundImage = "url('http://www.publicdomainpictures.net/pictures/180000/velka/beach-sand-background-1466447022hZP.jpg')";
 	}
